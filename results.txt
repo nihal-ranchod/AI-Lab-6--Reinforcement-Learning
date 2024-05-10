@@ -1,0 +1,7 @@
+The curves of the average rewards per episode for Q-Learning and SARSA show slightly different patterns. 
+Q-Learning appears to be slightly more stable, with less variance in the rewards across episodes compared to SARSA. 
+This difference could be attributed to the exploration-exploitation trade-off inherent in the 
+two algorithms. Q-Learning tends to be more exploratory, which leads to more consistent rewards 
+across episodes. On the other hand, SARSA prioritizes exploiting the current policy, resulting in 
+more variable rewards as it explores less. This variance can sometimes lead to better overall performance, 
+but it can also make the learning process less stable.
